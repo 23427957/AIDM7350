@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>西藏旅游介绍</title>
+<style>
+  body {
+    font-family: "微软雅黑", Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+  }
+  header {
+    background: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  nav {
+    display: flex;
+    justify-content: space-around;
+    background: #444;
+    padding: 10px 0;
+  }
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 20px;
+  }
+  nav a:hover {
+    background: #555;
+  }
+  .content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0;
+  }
+  .spot {
+    flex-basis: calc(33.333% - 20px);
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .spot img {
+    width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+  }
+  .spot h3 {
+    margin-top: 15px;
+  }
+  .spot p {
+    text-indent: 0;
+    line-height: 1.6;
+  }
+  footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 30px;
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>西藏旅游介绍</h1>
+</header>
+<nav>
+  <a href="#">首页</a>
+  <a href="#">景点介绍</a>
+  <a href="#">美食介绍</a>
+  <a href="#">民风民俗</a>
+  <a href="#">联系我们</a>
+  <a href="#">登录</a>
+</nav>
+<div class="container">
+  <div class="content">
+    <div class="spot">
+        <img src="纳木措.jpg" alt="纳木措">
+        <h3>纳木措</h3>
+        <p>纳木措位于中国西藏自治区,是西藏第二大湖泊, 也是中国第三大的咸水湖。湖面海拔4718米, 形状近似长方形, 东西长70多千米, 南北宽30多千米, 面积约1920km<sup>2</sup>。</p>
+    </div>
+    <div class="spot">
+        <img src="布达拉宫.jpg" alt="布达拉宫">
+        <h3>布达拉宫</h3>
+        <p>布达拉宫位于中国西藏自治区首府拉萨市区西北的玛布日山上, 是一座宫堡式建筑群。布达拉宫起建于山腰, 面积36万平方米, 建筑面积达13万平方米。<sup>2</sup>。</p>
+    </div>
+    <div class="spot">
+        <img src="大昭寺.jpg" alt="大昭寺">
+        <h3>大昭寺</h3>
+        <p>大昭寺位于中国西藏自治区拉萨市老城区中心, 是一座藏传佛教寺院, 是藏王松赞干布建造的。大昭寺在藏传佛教中拥有至高无上的地位, 是西藏现存最辉煌的吐蕃时期的建筑。<sup>2</sup>。</p>
+  </div>
+</div>
+<footer>
+  <p>&copy; 2024 西藏旅游</p>
+</footer>
+</body>
+</html>
